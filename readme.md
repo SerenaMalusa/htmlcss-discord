@@ -1,9 +1,23 @@
-## Esercizio di oggi (24/11/23): Discord Struttura
+## Esercizio di oggi (27/11/23): Discord
 
-nome repo: `htmlcss-struttura-discord`
+nome repo: `htmlcss-discord`
+
+Continuiamo il lavoro di ieri in una nuova repo. Potete proseguire dalla vostra struttura o dalla mia:  
+https://github.com/TizianoN/117-discord-blocchi
+
+In entrambi i casi la procedura è:
+
+- Scarico il file zip
+- Lo estraggo (controllando che non ci siano sottocartelle indesiderate)
+- Lo apro in VSCode e oubblico il nuovo progetto con il nome htmlcss-discord
 
 ### Descrizione
 
-Riproduzione di un vero sito: Discord.  
-Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati senza inserire i veri testi, img etc. o pensare al dettaglio.  
-Partiamo sempre dall'individuare il layout generale e poi iniziamo dall'alto verso il basso, non passiamo ad una sezione successiva se la precedente non funziona.
+Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.  
+Partiamo dai blocchi colorati e solo quando tutto funziona passiamo al dettaglio, sezione per sezione.
+
+### Consigli
+
+Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.  
+Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po' con unità relative senza però crearci nuove difficoltà, tanto meglio.  
+Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
