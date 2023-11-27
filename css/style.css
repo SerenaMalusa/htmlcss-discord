@@ -24,6 +24,24 @@ img {
   display: flex;
 }
 
+.btn {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.btn.btn-black {
+  background-color: #212528;
+  color: white;
+}
+
+.btn:hover,
+.logo-img:hover {
+  cursor: pointer;
+}
+
 /* DEBUG */
 .wrapper > *,
 .section-cnt {
@@ -66,14 +84,6 @@ header .login {
   text-align: end;
 }
 
-header .login-btn {
-  border-radius: 20px;
-  padding: 10px;
-  background-color: white;
-  color: black;
-  font-size: 0.9rem;
-}
-
 /* MAIN */
 main > section {
   height: 600px;
@@ -87,18 +97,29 @@ main .section-cnt {
 /* sezione 1 */
 #jumbotron {
   height: 500px;
-
-  /*debug */
-  background-color: #00008b;
-  border-bottom: 3px solid #abd7e6;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 #jumbotron .section-cnt {
   width: 80%;
   margin: 0 auto;
+  padding: 50px;
+  font-size: 1.3rem;
+}
 
-  /* debug */
-  background-color: #ee82ee;
+#jumbotron .jbt-title {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+
+#jumbotron .jbt-btn {
+  display: inline-block;
+  margin: 30px 15px;
+  padding: 15px 30px;
+  font-size: 1.1rem;
 }
 
 /* sezioni successive */
