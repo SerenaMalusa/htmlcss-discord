@@ -167,6 +167,14 @@ main > section:nth-of-type(even) .section-txt {
   padding-left: 100px;
 }
 
+#section-two {
+  padding-bottom: 0;
+}
+
+#section-two::after {
+  content: url(../img/wave.svg);
+  filter: invert(91%) sepia(0%) saturate(25%) hue-rotate(143deg) brightness(95%) contrast(95%);
+}
 /* sezioni dispari */
 main > section:nth-of-type(odd) {
   background-color: #d3d3d3;
