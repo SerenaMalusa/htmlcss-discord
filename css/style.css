@@ -11,7 +11,7 @@ body {
 
 /* UTILITY */
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .container {
@@ -86,7 +86,6 @@ header .login {
 
 /* MAIN */
 main > section {
-  height: 600px;
   padding: 60px 0;
 }
 
@@ -96,7 +95,6 @@ main .section-cnt {
 
 /* jumbotron */
 #jumbotron {
-  height: 500px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
   color: white;
@@ -166,11 +164,8 @@ main > section:nth-of-type(odd) .section-txt {
 }
 
 /* sezione 5 - ultima sezione */
-main > section:last-of-type {
-  height: 700px;
-}
-
 #section-last .section-cnt {
+  text-align: center;
   /* debug */
   background-color: #228b22;
 }
