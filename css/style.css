@@ -94,7 +94,7 @@ main .section-cnt {
   height: 100%;
 }
 
-/* sezione 1 */
+/* jumbotron */
 #jumbotron {
   height: 500px;
   background-image: url(../img/jumbo.png);
@@ -111,8 +111,8 @@ main .section-cnt {
 }
 
 #jumbotron .jbt-title {
-  font-size: 3.5rem;
   margin-bottom: 40px;
+  font-size: 3.5rem;
 }
 
 #jumbotron .jbt-btn {
@@ -132,14 +132,24 @@ main .section-img {
 
 main .section-txt {
   width: 40%;
+  padding-top: 20px;
 
   /* debug */
   background: #ffc0cb;
 }
 
+main .section-cnt-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
 /* sezioni pari */
 main > section:nth-of-type(even) {
   background: #ffffff;
+}
+
+main > section:nth-of-type(even) .section-txt {
+  padding-left: 60px;
 }
 
 /* sezioni dispari */
