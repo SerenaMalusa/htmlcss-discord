@@ -132,7 +132,7 @@ main .section-img {
 
 main .section-txt {
   width: 40%;
-  padding-top: 20px;
+  padding-top: 30px;
 
   /* debug */
   background: #ffc0cb;
@@ -140,7 +140,7 @@ main .section-txt {
 
 main .section-cnt-title {
   font-size: 3rem;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /* sezioni pari */
@@ -149,7 +149,7 @@ main > section:nth-of-type(even) {
 }
 
 main > section:nth-of-type(even) .section-txt {
-  padding-left: 60px;
+  padding-left: 100px;
 }
 
 /* sezioni dispari */
@@ -159,6 +159,10 @@ main > section:nth-of-type(odd) {
 
 main > section:nth-of-type(odd) > .wrapper {
   flex-direction: row-reverse;
+}
+
+main > section:nth-of-type(odd) .section-txt {
+  padding-right: 100px;
 }
 
 /* sezione 5 - ultima sezione */
