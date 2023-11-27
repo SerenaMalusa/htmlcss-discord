@@ -10,10 +10,16 @@ body {
 }
 
 /* UTILITY */
+p {
+  line-height: 1.7rem;
+}
+
+/* immagini */
 img {
   max-width: 100%;
 }
 
+/* container e wrapper */
 .container {
   width: 70%;
   margin: 0 auto;
@@ -24,10 +30,13 @@ img {
   display: flex;
 }
 
+/* sezioni */
+
 .section-cnt-subtitle {
   font-size: 2rem;
 }
 
+/* nav bars */ 
 .nav {
   list-style: none;
 }
@@ -37,6 +46,7 @@ img {
   text-decoration: none;
 }
 
+/* bottoni */
 .btn {
   display: inline-block;
   border-radius: 25px;
@@ -61,14 +71,9 @@ img {
   cursor: pointer;
 }
 
+/* logo */
 .logo-img {
   width: 112px;
-}
-
-/* DEBUG */
-.wrapper > *,
-.section-cnt {
-  border: 2px dashed black;
 }
 
 /* HEADER */
@@ -141,17 +146,11 @@ main .section-cnt {
 /* sezioni successive */
 main .section-img {
   width: 60%;
-
-  /* debug */
-  background: #1e90ff;
 }
 
 main .section-txt {
   width: 40%;
   padding-top: 30px;
-
-  /* debug */
-  background: #ffc0cb;
 }
 
 main .section-cnt-title {
@@ -184,8 +183,6 @@ main > section:nth-of-type(odd) .section-txt {
 /* sezione 5 - ultima sezione */
 #section-last .section-cnt {
   text-align: center;
-  /* debug */
-  background-color: #228b22;
 }
 
 #section-last .section-cnt-subtitle {
@@ -204,27 +201,16 @@ main > section:nth-of-type(odd) .section-txt {
 
 /* FOOTER */
 footer {
-  /* debug */
   background: #23272a;
 }
 
 /* sezione principale del footer */
-#footer-top {
-  height: 610px;
-  /* padding: 8px 0 24px; */
-
-  /* debug ?? */
-}
-
 #footer-top > .container {
   border-bottom: 2px solid #7fb2e3;
 }
 
 footer .wrapper > .footer-info {
   width: 30%;
-
-  /* debug */
-  /* background: #f08080; */
 }
 
 footer .section-cnt-subtitle {
@@ -255,7 +241,8 @@ footer .wrapper > .footer-bars {
 
 footer .footer-bars > .footer-bar {
   width: 25%;
-  border: 2px dashed white;
+  margin-bottom: 25px;
+  padding-left: 50px;
 }
 
 .nav-title {
@@ -270,16 +257,12 @@ footer .footer-nav > * {
 
 /* sezione secondaria del footer */
 #footer-bottom {
-  height: 80px;
-  padding-top: 20px;
+  padding: 25px 0 30px 0;
 }
 
 #footer-bottom .wrapper {
   justify-content: space-between;
   align-items: center;
-
-  /* debug */
-  background: #7fffd4;
 }
 
 #footer-bottom .btn {
