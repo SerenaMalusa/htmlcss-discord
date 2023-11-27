@@ -61,6 +61,10 @@ img {
   cursor: pointer;
 }
 
+.logo-img {
+  width: 112px;
+}
+
 /* DEBUG */
 .wrapper > *,
 .section-cnt {
@@ -81,10 +85,6 @@ header .wrapper {
 header .logo,
 header .login {
   width: 20%;
-}
-
-header .logo-img {
-  width: 112px;
 }
 
 header .nav {
@@ -268,7 +268,6 @@ footer .footer-nav > * {
   margin-top: 10px;
 }
 
-
 /* sezione secondaria del footer */
 #footer-bottom {
   height: 80px;
@@ -283,9 +282,6 @@ footer .footer-nav > * {
   background: #7fffd4;
 }
 
-#footer-bottom .wrapper > .footer-item {
-  padding: 4px 8px;
-
-  /* debug */
-  background: #ffb6c1;
+#footer-bottom .btn {
+  font-size: 0.8rem;
 }
