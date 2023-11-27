@@ -33,18 +33,12 @@ img {
 /* HEADER */
 header {
   height: 80px;
-
-  /* debug */
-  background: #add8e6;
+  background-color: #3161e0;
+  color: white;
 }
 
 header .wrapper {
   align-items: center;
-}
-
-header .wrapper > .header-cnt {
-  padding: 8px;
-  background-color: #daa520;
 }
 
 header .logo,
@@ -52,22 +46,32 @@ header .login {
   width: 20%;
 }
 
-header .logo {
-  text-align: start;
+header .logo-img {
+  width: 112px;
+}
+
+header .nav {
+  width: 60%;
+  text-align: center;
+  padding: 8px;
+}
+
+header .nav-link {
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
 }
 
 header .login {
   text-align: end;
 }
 
-header .nav {
-  width: 60%;
-  text-align: center;
-}
-
-header .nav-link {
-  margin: 0 8px;
-  text-decoration: none;
+header .login-btn {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
 }
 
 /* MAIN */
