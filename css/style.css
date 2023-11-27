@@ -1,0 +1,198 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILITY */
+img {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;        
+}
+
+/* DEBUG */
+.wrapper > *,
+.section-cnt {
+    border: 2px dashed black;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+
+    /* debug */
+    background: #add8e6;
+}
+
+header .wrapper {
+    align-items: center;
+}
+
+header .wrapper > .header-cnt {
+    padding: 8px;
+    background-color: #daa520;
+}
+
+header .logo, 
+header .login {
+    width: 20%;
+}
+
+header .logo {
+    text-align: start;
+}
+
+header .login {
+    text-align: end;
+}
+
+header .nav {
+    width: 60%;
+    text-align: center;
+}
+
+header .nav-link {
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+/* MAIN */
+main > section {
+    height: 600px;
+    padding: 60px 0;
+}
+
+main .section-cnt {
+    height: 100%;
+}
+
+/* sezione 1 */
+#section-one {
+    height: 500px;
+
+    /*debug */
+    background-color: #00008b;
+    border-bottom: 3px solid #abd7e6;
+}
+
+#section-one .section-cnt {
+    width: 80%;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: #ee82ee;
+}
+
+/* sezioni successive */
+main .section-img {
+    width: 60%;
+
+    /* debug */
+    background: #1e90ff;
+}
+
+main .section-txt {
+    width: 40%;
+
+    /* debug */
+    background: #ffc0cb;
+}
+
+/* sezioni pari */
+.section-even {
+
+    /* debug */
+    background: #ffffff;
+}
+
+/* sezioni dispari */
+.section-odd {
+
+    /* debug */
+    background-color: #d3d3d3;
+}
+
+.section-odd .wrapper {
+    flex-direction: row-reverse;
+}
+
+/* sezione 5 - ultima sezione */
+#section-last {
+    height: 700px;
+}
+
+#section-last .section-cnt {
+
+    /* debug */
+    background-color: #228b22;
+}
+
+/* FOOTER */
+footer {
+    /* debug */
+    background: #23272a;
+}
+
+/* sezione principale del footer */
+#footer-top {
+    height: 610px;
+    padding: 8px 0 24px;
+    
+    /* debug ?? */
+    border-bottom: 2px solid #c6c6c6;
+}
+
+footer .wrapper > .footer-info {
+    width: 30%;
+
+    /* debug */
+    background: #f08080;
+}
+
+footer .wrapper > .footer-bars {
+    width: 70%;
+}
+
+footer .footer-bars > .footer-nav {
+    width: 25%;
+    border: 2px dashed white;
+
+    /* debug */
+    background: #20b2aa;
+}
+
+/* sezione secondaria del footer */
+#footer-bottom {
+    height: 80px;
+    padding-top: 20px;
+}
+
+#footer-bottom .wrapper {
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    background: #7fffd4;
+}
+
+#footer-bottom .wrapper > .footer-item {
+    padding: 4px 8px;
+
+    /* debug */
+    background: #ffb6c1;
+}
