@@ -161,20 +161,21 @@ main .section-cnt-title {
 /* sezioni pari */
 main > section:nth-of-type(even) {
   background: #ffffff;
+  padding-bottom: 0;
 }
 
 main > section:nth-of-type(even) .section-txt {
   padding-left: 100px;
 }
 
-#section-two {
-  padding-bottom: 0;
-}
-
-#section-two::after {
+main > section:nth-of-type(even)::after {
   content: url(../img/wave.svg);
+  display: block;
+  line-height: 0;
+  /* transform: rotate(180deg); */
   filter: invert(91%) sepia(0%) saturate(25%) hue-rotate(143deg) brightness(95%) contrast(95%);
 }
+
 /* sezioni dispari */
 main > section:nth-of-type(odd) {
   background-color: #d3d3d3;
