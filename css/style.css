@@ -143,14 +143,20 @@ main .section-cnt {
   font-size: 1.1rem;
 }
 
+#jumbotron::after {
+  content: " ";
+}
+
 /* sezioni successive */
 main .section-img {
   width: 60%;
+  margin-bottom: 60px;
 }
 
 main .section-txt {
   width: 40%;
   padding-top: 30px;
+  margin-bottom: 60px;
 }
 
 main .section-cnt-title {
@@ -172,13 +178,13 @@ main > section:nth-of-type(even)::after {
   content: url(../img/wave.svg);
   display: block;
   line-height: 0;
-  /* transform: rotate(180deg); */
   filter: invert(91%) sepia(0%) saturate(25%) hue-rotate(143deg) brightness(95%) contrast(95%);
 }
 
 /* sezioni dispari */
 main > section:nth-of-type(odd) {
   background-color: #d3d3d3;
+  padding-bottom: 0;
 }
 
 main > section:nth-of-type(odd) > .wrapper {
@@ -188,6 +194,13 @@ main > section:nth-of-type(odd) > .wrapper {
 main > section:nth-of-type(odd) .section-txt {
   padding-right: 100px;
 }
+
+main > section:nth-of-type(odd)::after {
+  content: url(../img/wave.svg);
+  display: block;
+  line-height: 0;
+  filter: invert(99%) sepia(92%) saturate(0%) hue-rotate(256deg) brightness(107%) contrast(100%);
+} 
 
 /* sezione 5 - ultima sezione */
 #section-last .section-cnt {
@@ -206,6 +219,10 @@ main > section:nth-of-type(odd) .section-txt {
   margin: 40px 0;
   padding: 15px 30px;
   font-size: 1.1rem;
+}
+
+#section-last::after {
+  content: " ";
 }
 
 /* FOOTER */
